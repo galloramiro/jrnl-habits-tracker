@@ -1,0 +1,77 @@
+[2025-06-23 11:42:04 PM] |
+## LUNES
+
+@Health
+Sueño: 7
+Humor: 6
+Estres: 3
+
+@PositiveHabits
+- positive_habit_01: 1
+- positive_habit_02: 1
+- positive_habit_03: 1
+- positive_habit_04: 1
+- positive_habit_05: 1
+- positive_habit_06: 0
+- positive_habit_07: 1
+
+@NegativeHabits
+- negative_habit_01: 0
+- negative_habit_02: 0
+- negative_habit_03: 1
+- negative_habit_04: 0
+
+@ConvictConditioning
+- Saludo al Sol: 5
+- Full Pullups: 15
+- Unevein Squats: 20
+- Close Pushups: 0
+- Straigt Leg Raises: 0
+- Handstand Pushups: 0
+- Straignt Bridges: 0
+
+@DailyTasks
+### GENERAL
+- Task 01
+
+### MENSAJES
+- Task 01
+
+### TRABAJO
+- Task 01
+- Task 02
+
+### PSICÓLOGA
+- Task 0
+- Task 0
+
+@Journaling
+
+[2025-06-23 08:10:28 PM] |
+### 2025-06-23 Title 01
+Lorem ipsum
+
+[2025-06-23 08:20:28 PM] |
+### 2025-06-23 Title 02
+Lorem ipsum
+
+[2025-06-23 08:25:28 PM] |
+### 2025-06-23 Title 03
+Lorem ipsum
+
+[2025-06-23 08:27:28 PM] |
+### 2025-06-23 Title 04
+Lorem ipsum
+
+[2025-06-23 08:31:28 PM] |
+### 2025-06-23 Title 05
+Lorem ipsum
+
+[2025-06-23 08:36:28 PM] |
+### 2025-06-23 Title 06
+Lorem ipsum
+
+[2025-06-23 08:50:28 PM] |
+### 2025-06-23 Title 07
+Lorem ipsum
+

@@ -75,8 +75,8 @@ class MonthlyHabits:
         self._save_data_into_a_csv(data=monthly_view_data, path=files_path[0])
 
     def _get_list_of_files(self, month: str) -> List[str]:
-        JRNL_PATH = os.environ.get("JRNL_PATH")
-        month_path = os.path.abspath(f"{JRNL_PATH}2024/{month}")
+        JRNL_PATH = "./examples/jrnl-dir/"
+        month_path = os.path.abspath(f"{JRNL_PATH}2025/{month}")
 
         files = []
 

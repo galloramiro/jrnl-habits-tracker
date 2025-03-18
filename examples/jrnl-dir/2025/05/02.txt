@@ -1,0 +1,87 @@
+[2025-05-02 08:43:53 PM] |
+## VIERNES
+
+@Health
+Sueño: 8
+Humor: 6
+Estres: 1
+
+@PositiveHabits
+- positive_habit_01: 1
+- positive_habit_02: 1
+- positive_habit_03: 1
+- positive_habit_04: 1
+- positive_habit_05: 1
+- positive_habit_06: 0
+- positive_habit_07: 0
+
+@NegativeHabits
+- negative_habit_01: 0
+- negative_habit_02: 1
+- negative_habit_03: 0
+- negative_habit_04: 0
+
+@ConvictConditioning
+- Saludo al Sol: 5
+- Full Pullups: 0
+- Unevein Squats: 0
+- Close Pushups: 0
+- Straigt Leg Raises: 0
+- Handstand Pushups: 32
+- Straignt Bridges: 19
+
+@DailyTasks
+### GENERAL
+- Task 01
+- Task 02
+- Task 03
+
+### MENSAJES
+- Task 01
+
+### TRABAJO
+- Task 01
+- Task 02
+
+### PSICÓLOGA
+- Task 0
+- Task 0
+
+@Journaling
+
+[2025-05-02 08:03:20 PM] |
+### 2025-05-02 Title 01
+Lorem ipsum
+
+[2025-05-02 08:17:20 PM] |
+### 2025-05-02 Title 02
+Lorem ipsum
+
+[2025-05-02 08:23:20 PM] |
+### 2025-05-02 Title 03
+Lorem ipsum
+
+[2025-05-02 08:30:20 PM] |
+### 2025-05-02 Title 04
+Lorem ipsum
+
+[2025-05-02 08:33:20 PM] |
+### 2025-05-02 Title 05
+Lorem ipsum
+
+[2025-05-02 08:42:20 PM] |
+### 2025-05-02 Title 06
+Lorem ipsum
+
+[2025-05-02 08:53:20 PM] |
+### 2025-05-02 Title 07
+Lorem ipsum
+
+[2025-05-02 09:03:20 PM] |
+### 2025-05-02 Title 08
+Lorem ipsum
+
+[2025-05-02 09:08:20 PM] |
+### 2025-05-02 Title 09
+Lorem ipsum
+
