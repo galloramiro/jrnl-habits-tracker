@@ -38,8 +38,10 @@ class MonthlyViews:
         dataframe = self._filter_dataframe_by_tag(dataframe=dataframe, tag="Health")        
         values = list(dataframe["value"].unique())
         values.sort(reverse=True)
-        cero_index = values.index(0.0)
-        values.pop(cero_index)
+    
+        if 0 in values:
+            cero_index = values.index(0.0)
+            values.pop(cero_index)
 
         symbols = {
             "Sueño": "  ",
@@ -53,9 +55,9 @@ class MonthlyViews:
             self._generate_health_line(dataframe=value_dataframe)
 
     def _get_dataframe(self, month: str) -> pd.DataFrame:
-        JRNL_PATH = os.environ.get("JRNL_PATH")
+        JRNL_PATH = "./examples/jrnl-dir/"
         FILE_NAME = "monthly_habits_data.csv"
-        month_file_path = os.path.abspath(f"{JRNL_PATH}2024/{month}/{FILE_NAME}")
+        month_file_path = os.path.abspath(f"{JRNL_PATH}2025/{month}/{FILE_NAME}")
         dataframe = pd.read_csv(month_file_path)
         return dataframe
 

@@ -1,0 +1,631 @@
+date,year,month,day,week_number,description,value,tag
+2025-05-01 09:29:04 PM,2025,5,1,18,Sueño,8,Health
+2025-05-01 09:29:04 PM,2025,5,1,18,Humor,7,Health
+2025-05-01 09:29:04 PM,2025,5,1,18,Estres,1,Health
+2025-05-01 09:29:04 PM,2025,5,1,18,positive_habit_01,1,PositiveHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,positive_habit_02,1,PositiveHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,positive_habit_03,1,PositiveHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,positive_habit_04,1,PositiveHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,positive_habit_05,1,PositiveHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,positive_habit_06,1,PositiveHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,positive_habit_07,0,PositiveHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,negative_habit_01,0,NegativeHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,negative_habit_02,0,NegativeHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,negative_habit_03,0,NegativeHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,negative_habit_04,1,NegativeHabits
+2025-05-01 09:29:04 PM,2025,5,1,18,Saludo al Sol,0,ConvictConditioning
+2025-05-01 09:29:04 PM,2025,5,1,18,Full Pullups,0,ConvictConditioning
+2025-05-01 09:29:04 PM,2025,5,1,18,Unevein Squats,0,ConvictConditioning
+2025-05-01 09:29:04 PM,2025,5,1,18,Close Pushups,0,ConvictConditioning
+2025-05-01 09:29:04 PM,2025,5,1,18,Straigt Leg Raises,0,ConvictConditioning
+2025-05-01 09:29:04 PM,2025,5,1,18,Handstand Pushups,0,ConvictConditioning
+2025-05-01 09:29:04 PM,2025,5,1,18,Straignt Bridges,0,ConvictConditioning
+2025-05-02 08:43:53 PM,2025,5,2,18,Sueño,8,Health
+2025-05-02 08:43:53 PM,2025,5,2,18,Humor,6,Health
+2025-05-02 08:43:53 PM,2025,5,2,18,Estres,1,Health
+2025-05-02 08:43:53 PM,2025,5,2,18,positive_habit_01,1,PositiveHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,positive_habit_02,1,PositiveHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,positive_habit_03,1,PositiveHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,positive_habit_04,1,PositiveHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,positive_habit_05,1,PositiveHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,positive_habit_06,0,PositiveHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,positive_habit_07,0,PositiveHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,negative_habit_01,0,NegativeHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,negative_habit_02,1,NegativeHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,negative_habit_03,0,NegativeHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,negative_habit_04,0,NegativeHabits
+2025-05-02 08:43:53 PM,2025,5,2,18,Saludo al Sol,5,ConvictConditioning
+2025-05-02 08:43:53 PM,2025,5,2,18,Full Pullups,0,ConvictConditioning
+2025-05-02 08:43:53 PM,2025,5,2,18,Unevein Squats,0,ConvictConditioning
+2025-05-02 08:43:53 PM,2025,5,2,18,Close Pushups,0,ConvictConditioning
+2025-05-02 08:43:53 PM,2025,5,2,18,Straigt Leg Raises,0,ConvictConditioning
+2025-05-02 08:43:53 PM,2025,5,2,18,Handstand Pushups,32,ConvictConditioning
+2025-05-02 08:43:53 PM,2025,5,2,18,Straignt Bridges,19,ConvictConditioning
+2025-05-03 11:04:43 PM,2025,5,3,18,Sueño,8,Health
+2025-05-03 11:04:43 PM,2025,5,3,18,Humor,5,Health
+2025-05-03 11:04:43 PM,2025,5,3,18,Estres,3,Health
+2025-05-03 11:04:43 PM,2025,5,3,18,positive_habit_01,1,PositiveHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,positive_habit_02,0,PositiveHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,positive_habit_03,1,PositiveHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,positive_habit_04,1,PositiveHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,positive_habit_05,1,PositiveHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,positive_habit_06,1,PositiveHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,positive_habit_07,1,PositiveHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,negative_habit_01,0,NegativeHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,negative_habit_02,0,NegativeHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,negative_habit_03,0,NegativeHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,negative_habit_04,0,NegativeHabits
+2025-05-03 11:04:43 PM,2025,5,3,18,Saludo al Sol,0,ConvictConditioning
+2025-05-03 11:04:43 PM,2025,5,3,18,Full Pullups,0,ConvictConditioning
+2025-05-03 11:04:43 PM,2025,5,3,18,Unevein Squats,0,ConvictConditioning
+2025-05-03 11:04:43 PM,2025,5,3,18,Close Pushups,0,ConvictConditioning
+2025-05-03 11:04:43 PM,2025,5,3,18,Straigt Leg Raises,0,ConvictConditioning
+2025-05-03 11:04:43 PM,2025,5,3,18,Handstand Pushups,0,ConvictConditioning
+2025-05-03 11:04:43 PM,2025,5,3,18,Straignt Bridges,0,ConvictConditioning
+2025-05-04 11:28:23 PM,2025,5,4,18,Sueño,6,Health
+2025-05-04 11:28:23 PM,2025,5,4,18,Humor,6,Health
+2025-05-04 11:28:23 PM,2025,5,4,18,Estres,3,Health
+2025-05-04 11:28:23 PM,2025,5,4,18,positive_habit_01,0,PositiveHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,positive_habit_02,0,PositiveHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,positive_habit_03,1,PositiveHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,positive_habit_04,1,PositiveHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,positive_habit_05,1,PositiveHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,positive_habit_06,0,PositiveHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,positive_habit_07,1,PositiveHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,negative_habit_01,0,NegativeHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,negative_habit_02,0,NegativeHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,negative_habit_03,0,NegativeHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,negative_habit_04,0,NegativeHabits
+2025-05-04 11:28:23 PM,2025,5,4,18,Saludo al Sol,0,ConvictConditioning
+2025-05-04 11:28:23 PM,2025,5,4,18,Full Pullups,0,ConvictConditioning
+2025-05-04 11:28:23 PM,2025,5,4,18,Unevein Squats,0,ConvictConditioning
+2025-05-04 11:28:23 PM,2025,5,4,18,Close Pushups,0,ConvictConditioning
+2025-05-04 11:28:23 PM,2025,5,4,18,Straigt Leg Raises,0,ConvictConditioning
+2025-05-04 11:28:23 PM,2025,5,4,18,Handstand Pushups,0,ConvictConditioning
+2025-05-04 11:28:23 PM,2025,5,4,18,Straignt Bridges,0,ConvictConditioning
+2025-05-05 11:10:42 PM,2025,5,5,19,Sueño,8,Health
+2025-05-05 11:10:42 PM,2025,5,5,19,Humor,6,Health
+2025-05-05 11:10:42 PM,2025,5,5,19,Estres,1,Health
+2025-05-05 11:10:42 PM,2025,5,5,19,positive_habit_01,1,PositiveHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,positive_habit_02,1,PositiveHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,positive_habit_03,1,PositiveHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,positive_habit_04,0,PositiveHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,positive_habit_05,1,PositiveHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,positive_habit_06,0,PositiveHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,positive_habit_07,1,PositiveHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,negative_habit_01,0,NegativeHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,negative_habit_02,0,NegativeHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,negative_habit_03,0,NegativeHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,negative_habit_04,0,NegativeHabits
+2025-05-05 11:10:42 PM,2025,5,5,19,Saludo al Sol,5,ConvictConditioning
+2025-05-05 11:10:42 PM,2025,5,5,19,Full Pullups,34,ConvictConditioning
+2025-05-05 11:10:42 PM,2025,5,5,19,Unevein Squats,14,ConvictConditioning
+2025-05-05 11:10:42 PM,2025,5,5,19,Close Pushups,0,ConvictConditioning
+2025-05-05 11:10:42 PM,2025,5,5,19,Straigt Leg Raises,0,ConvictConditioning
+2025-05-05 11:10:42 PM,2025,5,5,19,Handstand Pushups,0,ConvictConditioning
+2025-05-05 11:10:42 PM,2025,5,5,19,Straignt Bridges,0,ConvictConditioning
+2025-05-06 11:27:38 PM,2025,5,6,19,Sueño,9,Health
+2025-05-06 11:27:38 PM,2025,5,6,19,Humor,8,Health
+2025-05-06 11:27:38 PM,2025,5,6,19,Estres,4,Health
+2025-05-06 11:27:38 PM,2025,5,6,19,positive_habit_01,1,PositiveHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,positive_habit_02,1,PositiveHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,positive_habit_03,1,PositiveHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,positive_habit_04,1,PositiveHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,positive_habit_05,1,PositiveHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,positive_habit_06,1,PositiveHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,positive_habit_07,1,PositiveHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,negative_habit_01,0,NegativeHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,negative_habit_02,0,NegativeHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,negative_habit_03,0,NegativeHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,negative_habit_04,0,NegativeHabits
+2025-05-06 11:27:38 PM,2025,5,6,19,Saludo al Sol,0,ConvictConditioning
+2025-05-06 11:27:38 PM,2025,5,6,19,Full Pullups,0,ConvictConditioning
+2025-05-06 11:27:38 PM,2025,5,6,19,Unevein Squats,0,ConvictConditioning
+2025-05-06 11:27:38 PM,2025,5,6,19,Close Pushups,0,ConvictConditioning
+2025-05-06 11:27:38 PM,2025,5,6,19,Straigt Leg Raises,0,ConvictConditioning
+2025-05-06 11:27:38 PM,2025,5,6,19,Handstand Pushups,0,ConvictConditioning
+2025-05-06 11:27:38 PM,2025,5,6,19,Straignt Bridges,0,ConvictConditioning
+2025-05-07 09:55:19 PM,2025,5,7,19,Sueño,6,Health
+2025-05-07 09:55:19 PM,2025,5,7,19,Humor,8,Health
+2025-05-07 09:55:19 PM,2025,5,7,19,Estres,1,Health
+2025-05-07 09:55:19 PM,2025,5,7,19,positive_habit_01,0,PositiveHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,positive_habit_02,0,PositiveHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,positive_habit_03,1,PositiveHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,positive_habit_04,1,PositiveHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,positive_habit_05,1,PositiveHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,positive_habit_06,0,PositiveHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,positive_habit_07,1,PositiveHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,negative_habit_01,0,NegativeHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,negative_habit_02,0,NegativeHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,negative_habit_03,0,NegativeHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,negative_habit_04,0,NegativeHabits
+2025-05-07 09:55:19 PM,2025,5,7,19,Saludo al Sol,5,ConvictConditioning
+2025-05-07 09:55:19 PM,2025,5,7,19,Full Pullups,0,ConvictConditioning
+2025-05-07 09:55:19 PM,2025,5,7,19,Unevein Squats,0,ConvictConditioning
+2025-05-07 09:55:19 PM,2025,5,7,19,Close Pushups,43,ConvictConditioning
+2025-05-07 09:55:19 PM,2025,5,7,19,Straigt Leg Raises,23,ConvictConditioning
+2025-05-07 09:55:19 PM,2025,5,7,19,Handstand Pushups,0,ConvictConditioning
+2025-05-07 09:55:19 PM,2025,5,7,19,Straignt Bridges,0,ConvictConditioning
+2025-05-08 10:18:19 PM,2025,5,8,19,Sueño,9,Health
+2025-05-08 10:18:19 PM,2025,5,8,19,Humor,6,Health
+2025-05-08 10:18:19 PM,2025,5,8,19,Estres,2,Health
+2025-05-08 10:18:19 PM,2025,5,8,19,positive_habit_01,1,PositiveHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,positive_habit_02,1,PositiveHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,positive_habit_03,1,PositiveHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,positive_habit_04,1,PositiveHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,positive_habit_05,1,PositiveHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,positive_habit_06,0,PositiveHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,positive_habit_07,1,PositiveHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,negative_habit_01,0,NegativeHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,negative_habit_02,0,NegativeHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,negative_habit_03,0,NegativeHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,negative_habit_04,0,NegativeHabits
+2025-05-08 10:18:19 PM,2025,5,8,19,Saludo al Sol,0,ConvictConditioning
+2025-05-08 10:18:19 PM,2025,5,8,19,Full Pullups,0,ConvictConditioning
+2025-05-08 10:18:19 PM,2025,5,8,19,Unevein Squats,0,ConvictConditioning
+2025-05-08 10:18:19 PM,2025,5,8,19,Close Pushups,0,ConvictConditioning
+2025-05-08 10:18:19 PM,2025,5,8,19,Straigt Leg Raises,0,ConvictConditioning
+2025-05-08 10:18:19 PM,2025,5,8,19,Handstand Pushups,0,ConvictConditioning
+2025-05-08 10:18:19 PM,2025,5,8,19,Straignt Bridges,0,ConvictConditioning
+2025-05-09 08:12:13 PM,2025,5,9,19,Sueño,7,Health
+2025-05-09 08:12:13 PM,2025,5,9,19,Humor,6,Health
+2025-05-09 08:12:13 PM,2025,5,9,19,Estres,1,Health
+2025-05-09 08:12:13 PM,2025,5,9,19,positive_habit_01,1,PositiveHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,positive_habit_02,0,PositiveHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,positive_habit_03,1,PositiveHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,positive_habit_04,1,PositiveHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,positive_habit_05,0,PositiveHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,positive_habit_06,0,PositiveHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,positive_habit_07,1,PositiveHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,negative_habit_01,0,NegativeHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,negative_habit_02,0,NegativeHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,negative_habit_03,0,NegativeHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,negative_habit_04,0,NegativeHabits
+2025-05-09 08:12:13 PM,2025,5,9,19,Saludo al Sol,5,ConvictConditioning
+2025-05-09 08:12:13 PM,2025,5,9,19,Full Pullups,0,ConvictConditioning
+2025-05-09 08:12:13 PM,2025,5,9,19,Unevein Squats,0,ConvictConditioning
+2025-05-09 08:12:13 PM,2025,5,9,19,Close Pushups,0,ConvictConditioning
+2025-05-09 08:12:13 PM,2025,5,9,19,Straigt Leg Raises,0,ConvictConditioning
+2025-05-09 08:12:13 PM,2025,5,9,19,Handstand Pushups,35,ConvictConditioning
+2025-05-09 08:12:13 PM,2025,5,9,19,Straignt Bridges,17,ConvictConditioning
+2025-05-10 11:05:23 PM,2025,5,10,19,Sueño,8,Health
+2025-05-10 11:05:23 PM,2025,5,10,19,Humor,6,Health
+2025-05-10 11:05:23 PM,2025,5,10,19,Estres,4,Health
+2025-05-10 11:05:23 PM,2025,5,10,19,positive_habit_01,1,PositiveHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,positive_habit_02,0,PositiveHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,positive_habit_03,1,PositiveHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,positive_habit_04,0,PositiveHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,positive_habit_05,1,PositiveHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,positive_habit_06,1,PositiveHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,positive_habit_07,1,PositiveHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,negative_habit_01,0,NegativeHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,negative_habit_02,0,NegativeHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,negative_habit_03,0,NegativeHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,negative_habit_04,0,NegativeHabits
+2025-05-10 11:05:23 PM,2025,5,10,19,Saludo al Sol,0,ConvictConditioning
+2025-05-10 11:05:23 PM,2025,5,10,19,Full Pullups,0,ConvictConditioning
+2025-05-10 11:05:23 PM,2025,5,10,19,Unevein Squats,0,ConvictConditioning
+2025-05-10 11:05:23 PM,2025,5,10,19,Close Pushups,0,ConvictConditioning
+2025-05-10 11:05:23 PM,2025,5,10,19,Straigt Leg Raises,0,ConvictConditioning
+2025-05-10 11:05:23 PM,2025,5,10,19,Handstand Pushups,0,ConvictConditioning
+2025-05-10 11:05:23 PM,2025,5,10,19,Straignt Bridges,0,ConvictConditioning
+2025-05-11 10:33:48 PM,2025,5,11,19,Sueño,7,Health
+2025-05-11 10:33:48 PM,2025,5,11,19,Humor,5,Health
+2025-05-11 10:33:48 PM,2025,5,11,19,Estres,1,Health
+2025-05-11 10:33:48 PM,2025,5,11,19,positive_habit_01,1,PositiveHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,positive_habit_02,1,PositiveHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,positive_habit_03,1,PositiveHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,positive_habit_04,0,PositiveHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,positive_habit_05,1,PositiveHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,positive_habit_06,1,PositiveHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,positive_habit_07,1,PositiveHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,negative_habit_01,0,NegativeHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,negative_habit_02,0,NegativeHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,negative_habit_03,0,NegativeHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,negative_habit_04,1,NegativeHabits
+2025-05-11 10:33:48 PM,2025,5,11,19,Saludo al Sol,0,ConvictConditioning
+2025-05-11 10:33:48 PM,2025,5,11,19,Full Pullups,0,ConvictConditioning
+2025-05-11 10:33:48 PM,2025,5,11,19,Unevein Squats,0,ConvictConditioning
+2025-05-11 10:33:48 PM,2025,5,11,19,Close Pushups,0,ConvictConditioning
+2025-05-11 10:33:48 PM,2025,5,11,19,Straigt Leg Raises,0,ConvictConditioning
+2025-05-11 10:33:48 PM,2025,5,11,19,Handstand Pushups,0,ConvictConditioning
+2025-05-11 10:33:48 PM,2025,5,11,19,Straignt Bridges,0,ConvictConditioning
+2025-05-12 09:09:30 PM,2025,5,12,20,Sueño,8,Health
+2025-05-12 09:09:30 PM,2025,5,12,20,Humor,6,Health
+2025-05-12 09:09:30 PM,2025,5,12,20,Estres,1,Health
+2025-05-12 09:09:30 PM,2025,5,12,20,positive_habit_01,0,PositiveHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,positive_habit_02,1,PositiveHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,positive_habit_03,1,PositiveHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,positive_habit_04,1,PositiveHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,positive_habit_05,1,PositiveHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,positive_habit_06,1,PositiveHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,positive_habit_07,1,PositiveHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,negative_habit_01,0,NegativeHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,negative_habit_02,0,NegativeHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,negative_habit_03,0,NegativeHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,negative_habit_04,0,NegativeHabits
+2025-05-12 09:09:30 PM,2025,5,12,20,Saludo al Sol,5,ConvictConditioning
+2025-05-12 09:09:30 PM,2025,5,12,20,Full Pullups,36,ConvictConditioning
+2025-05-12 09:09:30 PM,2025,5,12,20,Unevein Squats,12,ConvictConditioning
+2025-05-12 09:09:30 PM,2025,5,12,20,Close Pushups,0,ConvictConditioning
+2025-05-12 09:09:30 PM,2025,5,12,20,Straigt Leg Raises,0,ConvictConditioning
+2025-05-12 09:09:30 PM,2025,5,12,20,Handstand Pushups,0,ConvictConditioning
+2025-05-12 09:09:30 PM,2025,5,12,20,Straignt Bridges,0,ConvictConditioning
+2025-05-13 10:33:03 PM,2025,5,13,20,Sueño,7,Health
+2025-05-13 10:33:03 PM,2025,5,13,20,Humor,6,Health
+2025-05-13 10:33:03 PM,2025,5,13,20,Estres,2,Health
+2025-05-13 10:33:03 PM,2025,5,13,20,positive_habit_01,1,PositiveHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,positive_habit_02,0,PositiveHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,positive_habit_03,0,PositiveHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,positive_habit_04,0,PositiveHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,positive_habit_05,1,PositiveHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,positive_habit_06,1,PositiveHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,positive_habit_07,1,PositiveHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,negative_habit_01,0,NegativeHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,negative_habit_02,1,NegativeHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,negative_habit_03,0,NegativeHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,negative_habit_04,0,NegativeHabits
+2025-05-13 10:33:03 PM,2025,5,13,20,Saludo al Sol,0,ConvictConditioning
+2025-05-13 10:33:03 PM,2025,5,13,20,Full Pullups,0,ConvictConditioning
+2025-05-13 10:33:03 PM,2025,5,13,20,Unevein Squats,0,ConvictConditioning
+2025-05-13 10:33:03 PM,2025,5,13,20,Close Pushups,0,ConvictConditioning
+2025-05-13 10:33:03 PM,2025,5,13,20,Straigt Leg Raises,0,ConvictConditioning
+2025-05-13 10:33:03 PM,2025,5,13,20,Handstand Pushups,0,ConvictConditioning
+2025-05-13 10:33:03 PM,2025,5,13,20,Straignt Bridges,0,ConvictConditioning
+2025-05-14 10:38:02 PM,2025,5,14,20,Sueño,7,Health
+2025-05-14 10:38:02 PM,2025,5,14,20,Humor,7,Health
+2025-05-14 10:38:02 PM,2025,5,14,20,Estres,1,Health
+2025-05-14 10:38:02 PM,2025,5,14,20,positive_habit_01,1,PositiveHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,positive_habit_02,1,PositiveHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,positive_habit_03,1,PositiveHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,positive_habit_04,0,PositiveHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,positive_habit_05,1,PositiveHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,positive_habit_06,1,PositiveHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,positive_habit_07,1,PositiveHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,negative_habit_01,0,NegativeHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,negative_habit_02,1,NegativeHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,negative_habit_03,0,NegativeHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,negative_habit_04,0,NegativeHabits
+2025-05-14 10:38:02 PM,2025,5,14,20,Saludo al Sol,5,ConvictConditioning
+2025-05-14 10:38:02 PM,2025,5,14,20,Full Pullups,0,ConvictConditioning
+2025-05-14 10:38:02 PM,2025,5,14,20,Unevein Squats,0,ConvictConditioning
+2025-05-14 10:38:02 PM,2025,5,14,20,Close Pushups,54,ConvictConditioning
+2025-05-14 10:38:02 PM,2025,5,14,20,Straigt Leg Raises,54,ConvictConditioning
+2025-05-14 10:38:02 PM,2025,5,14,20,Handstand Pushups,0,ConvictConditioning
+2025-05-14 10:38:02 PM,2025,5,14,20,Straignt Bridges,0,ConvictConditioning
+2025-05-15 11:43:43 PM,2025,5,15,20,Sueño,8,Health
+2025-05-15 11:43:43 PM,2025,5,15,20,Humor,7,Health
+2025-05-15 11:43:43 PM,2025,5,15,20,Estres,1,Health
+2025-05-15 11:43:43 PM,2025,5,15,20,positive_habit_01,1,PositiveHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,positive_habit_02,1,PositiveHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,positive_habit_03,1,PositiveHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,positive_habit_04,1,PositiveHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,positive_habit_05,1,PositiveHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,positive_habit_06,0,PositiveHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,positive_habit_07,0,PositiveHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,negative_habit_01,0,NegativeHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,negative_habit_02,0,NegativeHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,negative_habit_03,0,NegativeHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,negative_habit_04,0,NegativeHabits
+2025-05-15 11:43:43 PM,2025,5,15,20,Saludo al Sol,0,ConvictConditioning
+2025-05-15 11:43:43 PM,2025,5,15,20,Full Pullups,0,ConvictConditioning
+2025-05-15 11:43:43 PM,2025,5,15,20,Unevein Squats,0,ConvictConditioning
+2025-05-15 11:43:43 PM,2025,5,15,20,Close Pushups,0,ConvictConditioning
+2025-05-15 11:43:43 PM,2025,5,15,20,Straigt Leg Raises,0,ConvictConditioning
+2025-05-15 11:43:43 PM,2025,5,15,20,Handstand Pushups,0,ConvictConditioning
+2025-05-15 11:43:43 PM,2025,5,15,20,Straignt Bridges,0,ConvictConditioning
+2025-05-16 09:42:42 PM,2025,5,16,20,Sueño,9,Health
+2025-05-16 09:42:42 PM,2025,5,16,20,Humor,5,Health
+2025-05-16 09:42:42 PM,2025,5,16,20,Estres,1,Health
+2025-05-16 09:42:42 PM,2025,5,16,20,positive_habit_01,1,PositiveHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,positive_habit_02,1,PositiveHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,positive_habit_03,1,PositiveHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,positive_habit_04,1,PositiveHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,positive_habit_05,0,PositiveHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,positive_habit_06,1,PositiveHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,positive_habit_07,1,PositiveHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,negative_habit_01,0,NegativeHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,negative_habit_02,0,NegativeHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,negative_habit_03,1,NegativeHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,negative_habit_04,0,NegativeHabits
+2025-05-16 09:42:42 PM,2025,5,16,20,Saludo al Sol,5,ConvictConditioning
+2025-05-16 09:42:42 PM,2025,5,16,20,Full Pullups,0,ConvictConditioning
+2025-05-16 09:42:42 PM,2025,5,16,20,Unevein Squats,0,ConvictConditioning
+2025-05-16 09:42:42 PM,2025,5,16,20,Close Pushups,0,ConvictConditioning
+2025-05-16 09:42:42 PM,2025,5,16,20,Straigt Leg Raises,0,ConvictConditioning
+2025-05-16 09:42:42 PM,2025,5,16,20,Handstand Pushups,57,ConvictConditioning
+2025-05-16 09:42:42 PM,2025,5,16,20,Straignt Bridges,48,ConvictConditioning
+2025-05-17 11:39:01 PM,2025,5,17,20,Sueño,7,Health
+2025-05-17 11:39:01 PM,2025,5,17,20,Humor,8,Health
+2025-05-17 11:39:01 PM,2025,5,17,20,Estres,1,Health
+2025-05-17 11:39:01 PM,2025,5,17,20,positive_habit_01,1,PositiveHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,positive_habit_02,1,PositiveHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,positive_habit_03,1,PositiveHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,positive_habit_04,1,PositiveHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,positive_habit_05,1,PositiveHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,positive_habit_06,1,PositiveHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,positive_habit_07,1,PositiveHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,negative_habit_01,1,NegativeHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,negative_habit_02,0,NegativeHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,negative_habit_03,0,NegativeHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,negative_habit_04,0,NegativeHabits
+2025-05-17 11:39:01 PM,2025,5,17,20,Saludo al Sol,0,ConvictConditioning
+2025-05-17 11:39:01 PM,2025,5,17,20,Full Pullups,0,ConvictConditioning
+2025-05-17 11:39:01 PM,2025,5,17,20,Unevein Squats,0,ConvictConditioning
+2025-05-17 11:39:01 PM,2025,5,17,20,Close Pushups,0,ConvictConditioning
+2025-05-17 11:39:01 PM,2025,5,17,20,Straigt Leg Raises,0,ConvictConditioning
+2025-05-17 11:39:01 PM,2025,5,17,20,Handstand Pushups,0,ConvictConditioning
+2025-05-17 11:39:01 PM,2025,5,17,20,Straignt Bridges,0,ConvictConditioning
+2025-05-18 08:43:42 PM,2025,5,18,20,Sueño,6,Health
+2025-05-18 08:43:42 PM,2025,5,18,20,Humor,6,Health
+2025-05-18 08:43:42 PM,2025,5,18,20,Estres,1,Health
+2025-05-18 08:43:42 PM,2025,5,18,20,positive_habit_01,1,PositiveHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,positive_habit_02,1,PositiveHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,positive_habit_03,0,PositiveHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,positive_habit_04,0,PositiveHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,positive_habit_05,1,PositiveHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,positive_habit_06,1,PositiveHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,positive_habit_07,1,PositiveHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,negative_habit_01,0,NegativeHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,negative_habit_02,0,NegativeHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,negative_habit_03,0,NegativeHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,negative_habit_04,0,NegativeHabits
+2025-05-18 08:43:42 PM,2025,5,18,20,Saludo al Sol,0,ConvictConditioning
+2025-05-18 08:43:42 PM,2025,5,18,20,Full Pullups,0,ConvictConditioning
+2025-05-18 08:43:42 PM,2025,5,18,20,Unevein Squats,0,ConvictConditioning
+2025-05-18 08:43:42 PM,2025,5,18,20,Close Pushups,0,ConvictConditioning
+2025-05-18 08:43:42 PM,2025,5,18,20,Straigt Leg Raises,0,ConvictConditioning
+2025-05-18 08:43:42 PM,2025,5,18,20,Handstand Pushups,0,ConvictConditioning
+2025-05-18 08:43:42 PM,2025,5,18,20,Straignt Bridges,0,ConvictConditioning
+2025-05-19 11:26:39 PM,2025,5,19,21,Sueño,8,Health
+2025-05-19 11:26:39 PM,2025,5,19,21,Humor,6,Health
+2025-05-19 11:26:39 PM,2025,5,19,21,Estres,2,Health
+2025-05-19 11:26:39 PM,2025,5,19,21,positive_habit_01,0,PositiveHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,positive_habit_02,0,PositiveHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,positive_habit_03,1,PositiveHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,positive_habit_04,0,PositiveHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,positive_habit_05,0,PositiveHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,positive_habit_06,1,PositiveHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,positive_habit_07,0,PositiveHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,negative_habit_01,0,NegativeHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,negative_habit_02,0,NegativeHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,negative_habit_03,0,NegativeHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,negative_habit_04,0,NegativeHabits
+2025-05-19 11:26:39 PM,2025,5,19,21,Saludo al Sol,5,ConvictConditioning
+2025-05-19 11:26:39 PM,2025,5,19,21,Full Pullups,58,ConvictConditioning
+2025-05-19 11:26:39 PM,2025,5,19,21,Unevein Squats,36,ConvictConditioning
+2025-05-19 11:26:39 PM,2025,5,19,21,Close Pushups,0,ConvictConditioning
+2025-05-19 11:26:39 PM,2025,5,19,21,Straigt Leg Raises,0,ConvictConditioning
+2025-05-19 11:26:39 PM,2025,5,19,21,Handstand Pushups,0,ConvictConditioning
+2025-05-19 11:26:39 PM,2025,5,19,21,Straignt Bridges,0,ConvictConditioning
+2025-05-20 10:32:38 PM,2025,5,20,21,Sueño,8,Health
+2025-05-20 10:32:38 PM,2025,5,20,21,Humor,6,Health
+2025-05-20 10:32:38 PM,2025,5,20,21,Estres,4,Health
+2025-05-20 10:32:38 PM,2025,5,20,21,positive_habit_01,1,PositiveHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,positive_habit_02,0,PositiveHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,positive_habit_03,1,PositiveHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,positive_habit_04,1,PositiveHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,positive_habit_05,1,PositiveHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,positive_habit_06,1,PositiveHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,positive_habit_07,1,PositiveHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,negative_habit_01,0,NegativeHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,negative_habit_02,0,NegativeHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,negative_habit_03,0,NegativeHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,negative_habit_04,0,NegativeHabits
+2025-05-20 10:32:38 PM,2025,5,20,21,Saludo al Sol,0,ConvictConditioning
+2025-05-20 10:32:38 PM,2025,5,20,21,Full Pullups,0,ConvictConditioning
+2025-05-20 10:32:38 PM,2025,5,20,21,Unevein Squats,0,ConvictConditioning
+2025-05-20 10:32:38 PM,2025,5,20,21,Close Pushups,0,ConvictConditioning
+2025-05-20 10:32:38 PM,2025,5,20,21,Straigt Leg Raises,0,ConvictConditioning
+2025-05-20 10:32:38 PM,2025,5,20,21,Handstand Pushups,0,ConvictConditioning
+2025-05-20 10:32:38 PM,2025,5,20,21,Straignt Bridges,0,ConvictConditioning
+2025-05-21 10:29:41 PM,2025,5,21,21,Sueño,9,Health
+2025-05-21 10:29:41 PM,2025,5,21,21,Humor,6,Health
+2025-05-21 10:29:41 PM,2025,5,21,21,Estres,3,Health
+2025-05-21 10:29:41 PM,2025,5,21,21,positive_habit_01,1,PositiveHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,positive_habit_02,1,PositiveHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,positive_habit_03,1,PositiveHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,positive_habit_04,1,PositiveHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,positive_habit_05,0,PositiveHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,positive_habit_06,1,PositiveHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,positive_habit_07,0,PositiveHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,negative_habit_01,0,NegativeHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,negative_habit_02,0,NegativeHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,negative_habit_03,0,NegativeHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,negative_habit_04,0,NegativeHabits
+2025-05-21 10:29:41 PM,2025,5,21,21,Saludo al Sol,5,ConvictConditioning
+2025-05-21 10:29:41 PM,2025,5,21,21,Full Pullups,0,ConvictConditioning
+2025-05-21 10:29:41 PM,2025,5,21,21,Unevein Squats,0,ConvictConditioning
+2025-05-21 10:29:41 PM,2025,5,21,21,Close Pushups,38,ConvictConditioning
+2025-05-21 10:29:41 PM,2025,5,21,21,Straigt Leg Raises,45,ConvictConditioning
+2025-05-21 10:29:41 PM,2025,5,21,21,Handstand Pushups,0,ConvictConditioning
+2025-05-21 10:29:41 PM,2025,5,21,21,Straignt Bridges,0,ConvictConditioning
+2025-05-22 10:24:23 PM,2025,5,22,21,Sueño,7,Health
+2025-05-22 10:24:23 PM,2025,5,22,21,Humor,7,Health
+2025-05-22 10:24:23 PM,2025,5,22,21,Estres,1,Health
+2025-05-22 10:24:23 PM,2025,5,22,21,positive_habit_01,0,PositiveHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,positive_habit_02,1,PositiveHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,positive_habit_03,1,PositiveHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,positive_habit_04,1,PositiveHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,positive_habit_05,1,PositiveHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,positive_habit_06,0,PositiveHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,positive_habit_07,1,PositiveHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,negative_habit_01,0,NegativeHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,negative_habit_02,0,NegativeHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,negative_habit_03,0,NegativeHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,negative_habit_04,0,NegativeHabits
+2025-05-22 10:24:23 PM,2025,5,22,21,Saludo al Sol,0,ConvictConditioning
+2025-05-22 10:24:23 PM,2025,5,22,21,Full Pullups,0,ConvictConditioning
+2025-05-22 10:24:23 PM,2025,5,22,21,Unevein Squats,0,ConvictConditioning
+2025-05-22 10:24:23 PM,2025,5,22,21,Close Pushups,0,ConvictConditioning
+2025-05-22 10:24:23 PM,2025,5,22,21,Straigt Leg Raises,0,ConvictConditioning
+2025-05-22 10:24:23 PM,2025,5,22,21,Handstand Pushups,0,ConvictConditioning
+2025-05-22 10:24:23 PM,2025,5,22,21,Straignt Bridges,0,ConvictConditioning
+2025-05-23 08:39:47 PM,2025,5,23,21,Sueño,8,Health
+2025-05-23 08:39:47 PM,2025,5,23,21,Humor,6,Health
+2025-05-23 08:39:47 PM,2025,5,23,21,Estres,1,Health
+2025-05-23 08:39:47 PM,2025,5,23,21,positive_habit_01,1,PositiveHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,positive_habit_02,1,PositiveHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,positive_habit_03,1,PositiveHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,positive_habit_04,1,PositiveHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,positive_habit_05,0,PositiveHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,positive_habit_06,1,PositiveHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,positive_habit_07,1,PositiveHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,negative_habit_01,0,NegativeHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,negative_habit_02,0,NegativeHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,negative_habit_03,0,NegativeHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,negative_habit_04,0,NegativeHabits
+2025-05-23 08:39:47 PM,2025,5,23,21,Saludo al Sol,5,ConvictConditioning
+2025-05-23 08:39:47 PM,2025,5,23,21,Full Pullups,0,ConvictConditioning
+2025-05-23 08:39:47 PM,2025,5,23,21,Unevein Squats,0,ConvictConditioning
+2025-05-23 08:39:47 PM,2025,5,23,21,Close Pushups,0,ConvictConditioning
+2025-05-23 08:39:47 PM,2025,5,23,21,Straigt Leg Raises,0,ConvictConditioning
+2025-05-23 08:39:47 PM,2025,5,23,21,Handstand Pushups,15,ConvictConditioning
+2025-05-23 08:39:47 PM,2025,5,23,21,Straignt Bridges,21,ConvictConditioning
+2025-05-24 09:47:02 PM,2025,5,24,21,Sueño,8,Health
+2025-05-24 09:47:02 PM,2025,5,24,21,Humor,6,Health
+2025-05-24 09:47:02 PM,2025,5,24,21,Estres,2,Health
+2025-05-24 09:47:02 PM,2025,5,24,21,positive_habit_01,1,PositiveHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,positive_habit_02,0,PositiveHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,positive_habit_03,1,PositiveHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,positive_habit_04,1,PositiveHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,positive_habit_05,1,PositiveHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,positive_habit_06,0,PositiveHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,positive_habit_07,0,PositiveHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,negative_habit_01,0,NegativeHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,negative_habit_02,0,NegativeHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,negative_habit_03,0,NegativeHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,negative_habit_04,0,NegativeHabits
+2025-05-24 09:47:02 PM,2025,5,24,21,Saludo al Sol,0,ConvictConditioning
+2025-05-24 09:47:02 PM,2025,5,24,21,Full Pullups,0,ConvictConditioning
+2025-05-24 09:47:02 PM,2025,5,24,21,Unevein Squats,0,ConvictConditioning
+2025-05-24 09:47:02 PM,2025,5,24,21,Close Pushups,0,ConvictConditioning
+2025-05-24 09:47:02 PM,2025,5,24,21,Straigt Leg Raises,0,ConvictConditioning
+2025-05-24 09:47:02 PM,2025,5,24,21,Handstand Pushups,0,ConvictConditioning
+2025-05-24 09:47:02 PM,2025,5,24,21,Straignt Bridges,0,ConvictConditioning
+2025-05-25 08:16:15 PM,2025,5,25,21,Sueño,8,Health
+2025-05-25 08:16:15 PM,2025,5,25,21,Humor,5,Health
+2025-05-25 08:16:15 PM,2025,5,25,21,Estres,2,Health
+2025-05-25 08:16:15 PM,2025,5,25,21,positive_habit_01,1,PositiveHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,positive_habit_02,0,PositiveHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,positive_habit_03,0,PositiveHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,positive_habit_04,1,PositiveHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,positive_habit_05,1,PositiveHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,positive_habit_06,0,PositiveHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,positive_habit_07,1,PositiveHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,negative_habit_01,0,NegativeHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,negative_habit_02,0,NegativeHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,negative_habit_03,0,NegativeHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,negative_habit_04,0,NegativeHabits
+2025-05-25 08:16:15 PM,2025,5,25,21,Saludo al Sol,0,ConvictConditioning
+2025-05-25 08:16:15 PM,2025,5,25,21,Full Pullups,0,ConvictConditioning
+2025-05-25 08:16:15 PM,2025,5,25,21,Unevein Squats,0,ConvictConditioning
+2025-05-25 08:16:15 PM,2025,5,25,21,Close Pushups,0,ConvictConditioning
+2025-05-25 08:16:15 PM,2025,5,25,21,Straigt Leg Raises,0,ConvictConditioning
+2025-05-25 08:16:15 PM,2025,5,25,21,Handstand Pushups,0,ConvictConditioning
+2025-05-25 08:16:15 PM,2025,5,25,21,Straignt Bridges,0,ConvictConditioning
+2025-05-26 10:18:07 PM,2025,5,26,22,Sueño,7,Health
+2025-05-26 10:18:07 PM,2025,5,26,22,Humor,6,Health
+2025-05-26 10:18:07 PM,2025,5,26,22,Estres,1,Health
+2025-05-26 10:18:07 PM,2025,5,26,22,positive_habit_01,1,PositiveHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,positive_habit_02,1,PositiveHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,positive_habit_03,1,PositiveHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,positive_habit_04,0,PositiveHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,positive_habit_05,1,PositiveHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,positive_habit_06,0,PositiveHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,positive_habit_07,1,PositiveHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,negative_habit_01,0,NegativeHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,negative_habit_02,0,NegativeHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,negative_habit_03,0,NegativeHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,negative_habit_04,0,NegativeHabits
+2025-05-26 10:18:07 PM,2025,5,26,22,Saludo al Sol,5,ConvictConditioning
+2025-05-26 10:18:07 PM,2025,5,26,22,Full Pullups,35,ConvictConditioning
+2025-05-26 10:18:07 PM,2025,5,26,22,Unevein Squats,13,ConvictConditioning
+2025-05-26 10:18:07 PM,2025,5,26,22,Close Pushups,0,ConvictConditioning
+2025-05-26 10:18:07 PM,2025,5,26,22,Straigt Leg Raises,0,ConvictConditioning
+2025-05-26 10:18:07 PM,2025,5,26,22,Handstand Pushups,0,ConvictConditioning
+2025-05-26 10:18:07 PM,2025,5,26,22,Straignt Bridges,0,ConvictConditioning
+2025-05-27 09:15:08 PM,2025,5,27,22,Sueño,8,Health
+2025-05-27 09:15:08 PM,2025,5,27,22,Humor,6,Health
+2025-05-27 09:15:08 PM,2025,5,27,22,Estres,1,Health
+2025-05-27 09:15:08 PM,2025,5,27,22,positive_habit_01,0,PositiveHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,positive_habit_02,1,PositiveHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,positive_habit_03,1,PositiveHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,positive_habit_04,1,PositiveHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,positive_habit_05,1,PositiveHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,positive_habit_06,0,PositiveHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,positive_habit_07,0,PositiveHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,negative_habit_01,0,NegativeHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,negative_habit_02,0,NegativeHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,negative_habit_03,0,NegativeHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,negative_habit_04,1,NegativeHabits
+2025-05-27 09:15:08 PM,2025,5,27,22,Saludo al Sol,0,ConvictConditioning
+2025-05-27 09:15:08 PM,2025,5,27,22,Full Pullups,0,ConvictConditioning
+2025-05-27 09:15:08 PM,2025,5,27,22,Unevein Squats,0,ConvictConditioning
+2025-05-27 09:15:08 PM,2025,5,27,22,Close Pushups,0,ConvictConditioning
+2025-05-27 09:15:08 PM,2025,5,27,22,Straigt Leg Raises,0,ConvictConditioning
+2025-05-27 09:15:08 PM,2025,5,27,22,Handstand Pushups,0,ConvictConditioning
+2025-05-27 09:15:08 PM,2025,5,27,22,Straignt Bridges,0,ConvictConditioning
+2025-05-28 10:04:37 PM,2025,5,28,22,Sueño,7,Health
+2025-05-28 10:04:37 PM,2025,5,28,22,Humor,5,Health
+2025-05-28 10:04:37 PM,2025,5,28,22,Estres,1,Health
+2025-05-28 10:04:37 PM,2025,5,28,22,positive_habit_01,1,PositiveHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,positive_habit_02,0,PositiveHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,positive_habit_03,1,PositiveHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,positive_habit_04,1,PositiveHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,positive_habit_05,1,PositiveHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,positive_habit_06,1,PositiveHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,positive_habit_07,1,PositiveHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,negative_habit_01,0,NegativeHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,negative_habit_02,0,NegativeHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,negative_habit_03,0,NegativeHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,negative_habit_04,0,NegativeHabits
+2025-05-28 10:04:37 PM,2025,5,28,22,Saludo al Sol,5,ConvictConditioning
+2025-05-28 10:04:37 PM,2025,5,28,22,Full Pullups,0,ConvictConditioning
+2025-05-28 10:04:37 PM,2025,5,28,22,Unevein Squats,0,ConvictConditioning
+2025-05-28 10:04:37 PM,2025,5,28,22,Close Pushups,24,ConvictConditioning
+2025-05-28 10:04:37 PM,2025,5,28,22,Straigt Leg Raises,42,ConvictConditioning
+2025-05-28 10:04:37 PM,2025,5,28,22,Handstand Pushups,0,ConvictConditioning
+2025-05-28 10:04:37 PM,2025,5,28,22,Straignt Bridges,0,ConvictConditioning
+2025-05-29 08:35:37 PM,2025,5,29,22,Sueño,8,Health
+2025-05-29 08:35:37 PM,2025,5,29,22,Humor,6,Health
+2025-05-29 08:35:37 PM,2025,5,29,22,Estres,1,Health
+2025-05-29 08:35:37 PM,2025,5,29,22,positive_habit_01,1,PositiveHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,positive_habit_02,1,PositiveHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,positive_habit_03,1,PositiveHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,positive_habit_04,1,PositiveHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,positive_habit_05,1,PositiveHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,positive_habit_06,1,PositiveHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,positive_habit_07,1,PositiveHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,negative_habit_01,0,NegativeHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,negative_habit_02,0,NegativeHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,negative_habit_03,0,NegativeHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,negative_habit_04,0,NegativeHabits
+2025-05-29 08:35:37 PM,2025,5,29,22,Saludo al Sol,0,ConvictConditioning
+2025-05-29 08:35:37 PM,2025,5,29,22,Full Pullups,0,ConvictConditioning
+2025-05-29 08:35:37 PM,2025,5,29,22,Unevein Squats,0,ConvictConditioning
+2025-05-29 08:35:37 PM,2025,5,29,22,Close Pushups,0,ConvictConditioning
+2025-05-29 08:35:37 PM,2025,5,29,22,Straigt Leg Raises,0,ConvictConditioning
+2025-05-29 08:35:37 PM,2025,5,29,22,Handstand Pushups,0,ConvictConditioning
+2025-05-29 08:35:37 PM,2025,5,29,22,Straignt Bridges,0,ConvictConditioning
+2025-05-30 10:39:00 PM,2025,5,30,22,Sueño,6,Health
+2025-05-30 10:39:00 PM,2025,5,30,22,Humor,6,Health
+2025-05-30 10:39:00 PM,2025,5,30,22,Estres,1,Health
+2025-05-30 10:39:00 PM,2025,5,30,22,positive_habit_01,1,PositiveHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,positive_habit_02,1,PositiveHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,positive_habit_03,1,PositiveHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,positive_habit_04,1,PositiveHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,positive_habit_05,1,PositiveHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,positive_habit_06,1,PositiveHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,positive_habit_07,1,PositiveHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,negative_habit_01,1,NegativeHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,negative_habit_02,0,NegativeHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,negative_habit_03,0,NegativeHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,negative_habit_04,0,NegativeHabits
+2025-05-30 10:39:00 PM,2025,5,30,22,Saludo al Sol,5,ConvictConditioning
+2025-05-30 10:39:00 PM,2025,5,30,22,Full Pullups,0,ConvictConditioning
+2025-05-30 10:39:00 PM,2025,5,30,22,Unevein Squats,0,ConvictConditioning
+2025-05-30 10:39:00 PM,2025,5,30,22,Close Pushups,0,ConvictConditioning
+2025-05-30 10:39:00 PM,2025,5,30,22,Straigt Leg Raises,0,ConvictConditioning
+2025-05-30 10:39:00 PM,2025,5,30,22,Handstand Pushups,30,ConvictConditioning
+2025-05-30 10:39:00 PM,2025,5,30,22,Straignt Bridges,56,ConvictConditioning
