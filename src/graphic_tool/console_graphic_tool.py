@@ -6,9 +6,6 @@ class ConsoleGraphicTool:
     _humor = "  "
     _stress = "  "
 
-    def _generate_days_line(self) -> str:
-        raise NotImplementedError
-
     def generate_positive_habits_graph(self) -> str:
         raise NotImplementedError
 
@@ -25,4 +22,7 @@ class ConsoleGraphicTool:
         raise NotImplementedError
 
     def generate_month_titles_graph(self) -> str:
+        raise NotImplementedError
+
+    def _generate_days_line(self) -> str:
         raise NotImplementedError
