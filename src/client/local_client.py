@@ -1,3 +1,5 @@
+from typing import List
+
 from src.config import JRNL_DIR
 
 

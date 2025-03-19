@@ -10,6 +10,7 @@ class MonthlyTitleRow(dataclass):
     year: int
     time: str
 
+
 class MonthlyHabitsRow(dataclass):
     date: str
     year: int
