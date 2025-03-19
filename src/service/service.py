@@ -6,7 +6,13 @@ from src.repository.csv_repository import CsvRepository
 
 class JrnlHabitTrackerService:
 
-    def __init__(self, client: LocalClient, data_processor: DataProcessor, repository: CsvRepository, graphic_tool: ConsoleGraphicTool):
+    def __init__(
+        self,
+        client: LocalClient,
+        data_processor: DataProcessor,
+        repository: CsvRepository,
+        graphic_tool: ConsoleGraphicTool,
+    ):
         self._client = client
         self._data_processor = data_processor
         self._repository = repository
@@ -29,9 +35,4 @@ class JrnlHabitTrackerService:
 
     @staticmethod
     def build_local_console_service():
-        return JrnlHabitTrackerService(
-            LocalClient(),
-            DataProcessor(),
-            CsvRepository(),
-            ConsoleGraphicTool()
-        )
+        return JrnlHabitTrackerService(LocalClient(), DataProcessor(), CsvRepository(), ConsoleGraphicTool())
