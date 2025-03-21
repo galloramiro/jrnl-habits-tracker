@@ -1,7 +1,8 @@
 from dataclasses import dataclass
 
 
-class MonthlyTitleRow(dataclass):
+@dataclass
+class MonthlyTitleRow:
     date: str
     title: str
     week_number: int
@@ -11,7 +12,8 @@ class MonthlyTitleRow(dataclass):
     time: str
 
 
-class MonthlyHabitsRow(dataclass):
+@dataclass
+class MonthlyHabitsRow:
     date: str
     year: int
     month: int
