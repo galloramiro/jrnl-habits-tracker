@@ -34,11 +34,10 @@ lint: ## Run service linting.
 .PHONY: black
 black: ## Code formatting.
 	docker run \
-		-v $(shell pwd)/src:/app/src \
-		-v $(shell pwd)/pyproject.toml:/app/pyproject.toml \
+		-v `pwd`:/app \
 		--env-file .env \
 		$(CONTAINER_NAME) \
-		poetry run black /app/src
+		poetry run black /app
 
 .PHONY: test
 test: ## Run service linting.
