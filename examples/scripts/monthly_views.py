@@ -3,7 +3,6 @@ import os
 import sys
 
 import pandas as pd
-from uniplot import plot
 
 
 LOGGER = logging.getLogger("MonthlyViewsLogger")

@@ -1,0 +1,93 @@
+[2024-12-24 11:17:07 PM] |
+## MARTES
+
+@Health
+Sueño: 7
+Humor: 7
+Estres: 2
+
+@PositiveHabits
+- positive_habit_01: 1
+- positive_habit_02: 1
+- positive_habit_03: 0
+- positive_habit_04: 1
+- positive_habit_05: 0
+- positive_habit_06: 1
+- positive_habit_07: 1
+
+@NegativeHabits
+- negative_habit_01: 0
+- negative_habit_02: 0
+- negative_habit_03: 0
+- negative_habit_04: 0
+
+@ConvictConditioning
+- Saludo al Sol: 0
+- Full Pullups: 0
+- Unevein Squats: 0
+- Close Pushups: 0
+- Straigt Leg Raises: 0
+- Handstand Pushups: 0
+- Straignt Bridges: 0
+
+@DailyTasks
+### GENERAL
+- Task 01
+- Task 02
+- Task 03
+- Task 04
+- Task 05
+
+### MENSAJES
+- Task 01
+
+### TRABAJO
+- Task 01
+- Task 02
+
+### PSICÓLOGA
+- Task 0
+- Task 0
+
+@Journaling
+
+[2024-12-24 08:54:58 PM] |
+### 2024-12-24 Title 01
+Lorem ipsum
+
+[2024-12-24 09:08:58 PM] |
+### 2024-12-24 Title 02
+Lorem ipsum
+
+[2024-12-24 09:12:58 PM] |
+### 2024-12-24 Title 03
+Lorem ipsum
+
+[2024-12-24 09:22:58 PM] |
+### 2024-12-24 Title 04
+Lorem ipsum
+
+[2024-12-24 09:33:58 PM] |
+### 2024-12-24 Title 05
+Lorem ipsum
+
+[2024-12-24 09:42:58 PM] |
+### 2024-12-24 Title 06
+Lorem ipsum
+
+[2024-12-24 09:52:58 PM] |
+### 2024-12-24 Title 07
+Lorem ipsum
+
+[2024-12-24 10:00:58 PM] |
+### 2024-12-24 Title 08
+Lorem ipsum
+
+[2024-12-24 10:03:58 PM] |
+### 2024-12-24 Title 09
+Lorem ipsum
+
+[2024-12-24 10:15:58 PM] |
+### 2024-12-24 Title 10
+Lorem ipsum
+

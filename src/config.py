@@ -3,8 +3,8 @@ import os
 from logging import config
 
 # ENVIRONMENT VARIABLES
-JRNL_DIR = os.getenv("JRNL_DIR", "./examples/jrnl-dir/")
+JRNL_DIR = os.getenv("JRNL_DIR", "./examples/jrnl-dir")
 
 # LOGGER CONFIG
 config.fileConfig("/app/logging.conf")
-LOGGER = logging.getLogger("replace_me")
+LOGGER = logging.getLogger("jrnl-habit-tracker")

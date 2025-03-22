@@ -43,8 +43,7 @@ black: ## Code formatting.
 .PHONY: test
 test: ## Run service linting.
 	docker run \
-		-v $(shell pwd)/src:/app/src \
-		-v $(shell pwd)/tests:/app/tests \
+		-v $(shell pwd):/app \
         --env-file .env \
 		$(CONTAINER_NAME) \
 		poetry run pytest /app/tests
@@ -52,8 +51,7 @@ test: ## Run service linting.
 .PHONY: debug
 debug: ## Run service linting.
 	docker run -it \
-		-v $(shell pwd)/src:/app/src \
-		-v $(shell pwd)/tests:/app/tests \
+		-v $(shell pwd):/app \
 		--env-file .env \
 		$(CONTAINER_NAME) \
 		/bin/bash -c "poetry run pytest ${test_dir} -s -vv"
