@@ -32,12 +32,9 @@ class LocalClient:
 
         files = []
         for file in os.listdir(files_path):
-            if file.endswith(".txt"):
-                files.append(os.path.join(files_path, file))
+            files.append(os.path.join(files_path, file))
 
         number_of_files = len(files)
-        self._check_files_exist(files_path, number_of_files)
-
         LOGGER.info(
             f"We find {number_of_files} files in the following path: {files_path}",
             extra={"month_path": files_path, "number_of_files": number_of_files},
@@ -45,8 +42,16 @@ class LocalClient:
         files.sort()
         return files
 
-    def get_jrnl_files_path_by_month(self, month: int) -> List[str]:
-        raise NotImplementedError
+    def get_jrnl_files_path_by_month(self, month: int, year: int = datetime.now().year) -> List[str]:
+        all_files = self.get_file_paths_by_month(month=month, year=year)
+        jrnl_files = list(filter(lambda file: file.endswith(".txt"), all_files))
+        number_of_files = len(jrnl_files)
+        self._check_files_exist(files_path=jrnl_files, number_of_files=number_of_files)
+        LOGGER.info(
+            f"We find {number_of_files} jrnl files for year: {year} month: {month}",
+            extra={"month": month, "year": year, "number_of_files": number_of_files},
+        )
+        return jrnl_files
 
     def get_monthly_habits_by_month(self, month: int) -> List[str]:
         raise NotImplementedError
