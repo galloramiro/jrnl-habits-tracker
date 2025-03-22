@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 
 # Note: This code was generated with the assistance of AI.
 
+
 def generate_timestamp(start_time, end_time, last_time=None):
     if last_time is None:
         random_time = start_time + (end_time - start_time) * random.random()
@@ -14,10 +15,12 @@ def generate_timestamp(start_time, end_time, last_time=None):
             random_time = end_time
     return random_time
 
+
 def get_day_name(date):
     days = ["LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO", "DOMINGO"]
     day_index = datetime.strptime(date, "%Y-%m-%d").weekday()
     return days[day_index]
+
 
 def weighted_choice(choices):
     total = sum(weight for choice, weight in choices)
@@ -28,6 +31,7 @@ def weighted_choice(choices):
             return choice
         upto += weight
     assert False, "Shouldn't get here"
+
 
 def generate_data(month, day):
     date = f"2025-{month:02d}-{day:02d}"
@@ -56,7 +60,15 @@ def generate_data(month, day):
     data += "\n"
 
     data += "@ConvictConditioning\n"
-    exercises = ["Saludo al Sol", "Full Pullups", "Unevein Squats", "Close Pushups", "Straigt Leg Raises", "Handstand Pushups", "Straignt Bridges"]
+    exercises = [
+        "Saludo al Sol",
+        "Full Pullups",
+        "Unevein Squats",
+        "Close Pushups",
+        "Straigt Leg Raises",
+        "Handstand Pushups",
+        "Straignt Bridges",
+    ]
     day_exercises = {
         "LUNES": ["Saludo al Sol", "Full Pullups", "Unevein Squats"],
         "MARTES": [],
@@ -64,7 +76,7 @@ def generate_data(month, day):
         "JUEVES": [],
         "VIERNES": ["Saludo al Sol", "Handstand Pushups", "Straignt Bridges"],
         "SÁBADO": [],
-        "DOMINGO": []
+        "DOMINGO": [],
     }
     for exercise in exercises:
         if exercise in day_exercises.get(day_name, []):
@@ -106,6 +118,7 @@ def generate_data(month, day):
         data += "Lorem ipsum\n\n"
 
     return data
+
 
 # Generate data for the specified day and save to file
 month = 6
