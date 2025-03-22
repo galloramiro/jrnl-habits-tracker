@@ -7,6 +7,7 @@ from src.config import JRNL_DIR, LOGGER
 
 class LocalClientError(Exception):
     """Raised when we find errors"""
+
     def __init__(self, path: str, description: str):
         self.description = description
         self.path = path
@@ -45,16 +46,25 @@ class LocalClient:
     def get_jrnl_files_path_by_month(self, month: int, year: int = datetime.now().year) -> List[str]:
         all_files = self.get_file_paths_by_month(month=month, year=year)
         jrnl_files = list(filter(lambda file: file.endswith(".txt"), all_files))
+        self._check_files_exist(paths_list=jrnl_files)
         number_of_files = len(jrnl_files)
-        self._check_files_exist(files_path=jrnl_files, number_of_files=number_of_files)
         LOGGER.info(
             f"We find {number_of_files} jrnl files for year: {year} month: {month}",
             extra={"month": month, "year": year, "number_of_files": number_of_files},
         )
         return jrnl_files
 
-    def get_monthly_habits_by_month(self, month: int) -> List[str]:
-        raise NotImplementedError
+    def get_monthly_habits_by_month(self, month: int, year: int = datetime.now().year) -> str:
+        file_name = "monthly_habits_data"
+        all_files = self.get_file_paths_by_month(month=month, year=year)
+        monthly_habit_files = list(filter(lambda file: file_name in file, all_files))
+        self._check_files_exist(paths_list=monthly_habit_files)
+        file_path = monthly_habit_files[0]
+        LOGGER.info(
+            f"We find {file_path} file for year: {year} month: {month}",
+            extra={"month": month, "year": year},
+        )
+        return file_path
 
     def get_monthly_habits_files_paths_by_year(self, month: int) -> List[str]:
         raise NotImplementedError
@@ -76,11 +86,12 @@ class LocalClient:
         return True
 
     @staticmethod
-    def _check_files_exist(files_path, number_of_files) -> bool:
+    def _check_files_exist(paths_list: List[str]) -> bool:
+        number_of_files = len(paths_list)
         if not number_of_files:
             LOGGER.error(
-                f"We didn't find files in the following path: {files_path}",
-                extra={"files_path": files_path, "number_of_files": number_of_files},
+                f"We didn't find files",
+                extra={"paths_list": paths_list},
             )
-            raise LocalClientError(path=files_path, description="_check_files_exist")
+            raise LocalClientError(path="", description="_check_files_exist")
         return True
