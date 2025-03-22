@@ -61,6 +61,7 @@ def test_get_jrnl_files_path_by_month_not_file_found():
     with pytest.raises(LocalClientError):
         client.get_jrnl_files_path_by_month(month=month, year=year)
 
+
 def test_get_monthly_habits_by_month():
     client = LocalClient()
 
@@ -84,6 +85,29 @@ def test_get_monthly_habits_by_month_not_file_found():
         client.get_monthly_habits_by_month(month=month, year=year)
 
 
+def test_get_monthly_titles_by_month():
+    client = LocalClient()
+
+    # GIVEN
+    month = 4
+
+    # THEN
+    april_2025_files = client.get_monthly_titles_by_month(month=month)
+    assert april_2025_files == "/app/examples/jrnl-dir/2025/04/monthly_titles_data.csv"
+
+
+def test_get_monthly_titles_by_month_not_file_found():
+    client = LocalClient()
+
+    # GIVEN
+    month = 11
+    year = 2024
+
+    # THEN
+    with pytest.raises(LocalClientError):
+        client.get_monthly_titles_by_month(month=month, year=year)
+
+
 def test__check_path_exist():
     client = LocalClient()
 
@@ -99,6 +123,7 @@ def test__check_path_exist():
     # THEN
     with pytest.raises(LocalClientError):
         client._check_path_exist(path=path)
+
 
 def test__check_files_exist():
     client = LocalClient()

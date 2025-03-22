@@ -69,8 +69,17 @@ class LocalClient:
     def get_monthly_habits_files_paths_by_year(self, month: int) -> List[str]:
         raise NotImplementedError
 
-    def get_monthly_titles_by_month(self, month: int) -> List[str]:
-        raise NotImplementedError
+    def get_monthly_titles_by_month(self, month: int, year: int = datetime.now().year) -> str:
+        file_name = "monthly_titles_data"
+        all_files = self.get_file_paths_by_month(month=month, year=year)
+        monthly_titles_files = list(filter(lambda file: file_name in file, all_files))
+        self._check_files_exist(paths_list=monthly_titles_files)
+        file_path = monthly_titles_files[0]
+        LOGGER.info(
+            f"We find {file_path} file for year: {year} month: {month}",
+            extra={"month": month, "year": year},
+        )
+        return file_path
 
     def get_monthly_titles_files_paths_by_year(self, month: int) -> List[str]:
         raise NotImplementedError
