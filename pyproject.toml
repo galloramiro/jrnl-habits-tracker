@@ -8,6 +8,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.11.4"
 pandas = "^2.2.3"
+blessings = "^1.7"
 typer = "^0.15.2"
 
 [tool.poetry.group.dev.dependencies]
