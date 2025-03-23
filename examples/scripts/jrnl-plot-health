@@ -104,6 +104,7 @@ function defaults()
   [[ -n "$JRNL_DIR"     ]] || JRNL_DIR="$HOME/.jrnl"
   [[ -n "$DEF_CFG_KEYS" ]] || DEF_CFG_KEYS='DREAM,HUMOR,STRES'
   [[ -n "$DEF_CFG_SYMS" ]] || DEF_CFG_SYMS=',,'
+  [[ -n "$DEF_ALL_SYMS" ]] || DEF_ALL_SYMS='→,∗,∘,∙,√,∝,∞,∩,∪,∫,∮,∴,∵,∶,∷,∼,⊙,⊚,⋅,⋯,⌂,⌕,⑀,⑁,⑂,⑃,⑇,■,□,▢,▣,▤,▥,▦,▧,▨,▩,▪,▬,▲,△,▶,▷,▼,▽,◀,◁,◆,◇,◊,○,◎,●,◐,◑,★,☆,☼,♠,♡,♢,♣,♩,♪,♫,✓,✗,'
   [[ -n "$YEAR"         ]] || YEAR="$(date +'%Y')"
   [[ -n "$MONTH"        ]] || MONTH="$(date +'%m')"
   [[ -n "$LINE"         ]] || LINE=''
