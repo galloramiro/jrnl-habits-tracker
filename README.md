@@ -78,6 +78,17 @@ Jrnl Habit Tracker
             └── test_service_integration.py
 ```
 
+## JRNL Configuration
+
+Define Environment variables for `jrnl-plot-health` in `~/.jrnl.cfg`
+
+Use `.jrnl.cfg` in examples directory:
+
+```bash
+DEF_CFG_KEYS='DREAM,HUMOR,STRES'
+JRNL_DIR='/app/examples/jrnl-dir'
+```
+
 ## Classes overview
 
 ```mermaid
