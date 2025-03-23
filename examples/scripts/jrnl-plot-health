@@ -179,6 +179,7 @@ function references()
   do
     VAL="${CFG_KEYS[$IDX]}"
     SYM="${CFG_SYMS[$IDX]}"
+    [[ -z "$SYM" ]] && SYM="$(sym_rnd)"
     printf " %s %s " "$SYM" "$VAL"
   done
 
@@ -221,6 +222,7 @@ function days_plot()
         if [[ "$V" -eq "$VAL" ]]
         then
           SYM="${CFG_SYMS[$IDX]}"
+          [[ -z "$SYM" ]] && SYM="$(sym_rnd)"
           VALS+="$SYM"
         else
           VALS+=' '
