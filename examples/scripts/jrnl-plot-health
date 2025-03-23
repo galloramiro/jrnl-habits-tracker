@@ -143,8 +143,23 @@ function sym_rnd()
 
 function params()
 {
-  [[ -z "$1" ]] || MONTH="$1"
-  [[ -z "$2" ]] || YEAR="$2"
+  [[ -z "$1"          ]] || MONTH="$(printf '%02d' "$1")"
+  [[ "$MONTH" -gt 12  ]] && MONTH=12
+  [[ "$MONTH" -eq 12  ]] && MONTH_DAYS=31
+  [[ -z "$2"          ]] ||  YEAR="$(printf '%02d' "$2")"
+  [[ -n "$HEALTH_MAX" ]] || HEALTH_MAX="$(health_max)"
+  [[ -z "$HEALTH_MAX" ]] && HEALTH_MAX='10'
+  [[ -n "$MONTH_NEXT" ]] || MONTH_NEXT="$((${MONTH#0} + 1))"
+  [[ -n "$MONTH_DAYS" ]] || MONTH_DAYS="$(date -d "$YEAR-$MONTH_NEXT-01 -1 days" +%d)"
+}
+
+function health_max()
+{
+  sed -n '/@Health/,/@/p' $JRNL_DIR/$YEAR/$MONTH/*.txt 2>/dev/null \
+    | grep -vE '(^@|^$)'                                           \
+    | awk '{print $NF}'                                            \
+    | sort -ur                                                     \
+    | head -1
 }
 
 function date_health()
@@ -174,7 +189,7 @@ function days_x()
 {
   printf "\\n"
 
-  for DAY in $(seq 1 31)
+  for DAY in $(seq 1 "$MONTH_DAYS")
   do
 
     printf -v D "%02d" "$DAY"
@@ -187,13 +202,12 @@ function days_x()
 
 function days_plot()
 {
-
-  for VAL in $(seq 10 -1 1)
+  for VAL in $(seq "$HEALTH_MAX" -1 1)
   do
-    for DAY in $(seq 1 31)
+    for DAY in $(seq 1 "$MONTH_DAYS")
     do
 
-      printf -v DATE "%04d-%02d-%02d" "$YEAR" "$MONTH" "$DAY"
+      printf -v DATE "%04d-%02d-%02d" "$YEAR" "${MONTH#0}" "$DAY"
       SYM=" $LINE "
       VALS=''
 
@@ -234,10 +248,10 @@ function days_plot()
 function days_load()
 {
 
-  for DAY in $(seq 1 31)
+  for DAY in $(seq 1 "$MONTH_DAYS")
   do
 
-    printf -v DATE "%04d-%02d-%02d" "$YEAR" "$MONTH" "$DAY"
+    printf -v DATE "%04d-%02d-%02d" "$YEAR" "${MONTH#0}" "$DAY"
 
     for ITEM in "${CFG_KEYS[@]}"
     do
