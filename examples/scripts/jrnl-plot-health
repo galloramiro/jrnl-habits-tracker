@@ -112,7 +112,7 @@ function defaults()
   [[ -n "$NO_CFG"       ]] || cfg_load
 
   IFS=',' read -ra CFG_KEYS <<< "$DEF_CFG_KEYS"
-  IFS=',' read -ra CFG_SIMS <<< "$DEF_CFG_SYMS"
+  IFS=',' read -ra CFG_SYMS <<< "$DEF_CFG_SYMS"
   unset IFS
 }
 
@@ -138,7 +138,7 @@ function references()
   for IDX in "${!CFG_KEYS[@]}"
   do
     VAL="${CFG_KEYS[$IDX]}"
-    SYM="${CFG_SIMS[$IDX]}"
+    SYM="${CFG_SYMS[$IDX]}"
     printf " %s %s " "$SYM" "$VAL"
   done
 
@@ -181,7 +181,7 @@ function days_plot()
 
         if [[ "$V" -eq "$VAL" ]]
         then
-          SYM="${CFG_SIMS[$IDX]}"
+          SYM="${CFG_SYMS[$IDX]}"
           VALS+="$SYM"
         else
           VALS+=' '
