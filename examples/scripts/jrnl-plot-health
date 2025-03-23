@@ -166,9 +166,9 @@ function date_health()
 {
   [[ -n "$FILE" ]] || FILE="$JRNL_DIR/${DATE//-/\/}.txt"
 
-  grep -EA3 '^@Health' "$FILE" 2>/dev/null                    \
-    | grep -v '@Health'                                       \
-    | awk "/^$ITEM/ {print \$2}"
+  sed -n '/@Health/,/@/p' "$FILE" 2>/dev/null \
+    | grep -vE '(^@|^$)'                      \
+    | awk "/$ITEM/ {print \$NF}"
 }
 
 function references()
