@@ -1,0 +1,240 @@
+#!/usr/bin/env bash
+
+# This script comes with ABSOLUTELY NO WARRANTY, use at own risk
+# Copyright (C) 2025 Osiris Alejandro Gomez <osiux@osiux.com>
+# Copyright (C) 2025 Osiris Alejandro Gomez <osiris@gcoop.coop>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+# shellcheck disable=SC1090
+
+declare -A DAY_HEALTH
+BIN="$(basename "$0")"
+
+function stderror()
+{
+  echo >&2 "$1"
+}
+
+function die()
+{
+  stderror "$1"
+  exit 1
+}
+
+function usage()
+{
+cat << EOF
+
+## \`$BIN\` create a line for each health and graph records for that day
+
+### Defaults:
+
+Modify defaults in \`~/.jrnl.cfg\`
+
+\`\`\`bash
+
+DEF_CFG_KEYS='DREAM,HUMOR,STRES'
+DEF_CFG_SYMS=',,'
+JRNL_DIR='~/.jrnl'
+LINE=''
+
+\`\`\`
+
+### Usage:
+
+\`\`\`bash
+
+  $BIN [MONTH] [YEAR]
+
+\`\`\`
+
+### Example:
+
+\`\`\`bash
+
+  $BIN 6
+
+  ## Jun/2025
+
+    DREAM   HUMOR   STRESS
+
+                                                                                                                               10
+                                                                                                                               09
+                                                                                                                             08
+                                                                                                                   07
+                                                                                                                           06
+                                                                                                                               05
+                                                                                                                               04
+                                                                                                                               03
+                                                                                                                               02
+                                                                                                                               01
+
+    01   02   03   04   05   06   07   08   09   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25   26   27   28   29   30   31
+
+\`\`\`
+
+EOF
+exit 0
+}
+
+[[ "$1" =~ ^[-]+(h|help) ]] && usage
+
+function cfg_load()
+{
+  test -s "$HOME/.$CFG"        2>/dev/null && CFG="$HOME/.$CFG"
+  test -s "$HOME/.config/$CFG" 2>/dev/null && CFG="$HOME/.config/$CFG"
+  test -s ".$CFG"              2>/dev/null && CFG=".$CFG"
+  test -s "$CFG"               2>/dev/null && source "$CFG"
+}
+
+function defaults()
+{
+  [[ -n "$JRNL_DIR"     ]] || JRNL_DIR="$HOME/.jrnl"
+  [[ -n "$DEF_CFG_KEYS" ]] || DEF_CFG_KEYS='DREAM,HUMOR,STRES'
+  [[ -n "$DEF_CFG_SYMS" ]] || DEF_CFG_SYMS=',,'
+  [[ -n "$YEAR"         ]] || YEAR="$(date +'%Y')"
+  [[ -n "$MONTH"        ]] || MONTH="$(date +'%m')"
+  [[ -n "$LINE"         ]] || LINE=''
+  [[ -n "$CFG"          ]] || CFG='jrnl.cfg'
+  [[ -n "$NO_CFG"       ]] || cfg_load
+
+  IFS=',' read -ra CFG_KEYS <<< "$DEF_CFG_KEYS"
+  IFS=',' read -ra CFG_SIMS <<< "$DEF_CFG_SYMS"
+  unset IFS
+}
+
+function params()
+{
+  [[ -z "$1" ]] || MONTH="$1"
+  [[ -z "$2" ]] || YEAR="$2"
+}
+
+function date_health()
+{
+  [[ -n "$FILE" ]] || FILE="$JRNL_DIR/${DATE//-/\/}.txt"
+
+  grep -EA3 '^@Health' "$FILE" 2>/dev/null                    \
+    | grep -v '@Health'                                       \
+    | awk "/^$ITEM/ {print \$2}"
+}
+
+function references()
+{
+  printf "## %s\\n\\n" "$(LC_ALL=C date -d "$YEAR-$MONTH-01" +'%b/%Y')"
+
+  for IDX in "${!CFG_KEYS[@]}"
+  do
+    VAL="${CFG_KEYS[$IDX]}"
+    SYM="${CFG_SIMS[$IDX]}"
+    printf " %s %s " "$SYM" "$VAL"
+  done
+
+  printf "\\n\\n"
+}
+
+function days_x()
+{
+  printf "\\n"
+
+  for DAY in $(seq 1 31)
+  do
+
+    printf -v D "%02d" "$DAY"
+    printf " %3s " "$D"
+
+  done
+
+  printf "\\n"
+}
+
+function days_plot()
+{
+
+  for VAL in $(seq 10 -1 1)
+  do
+    for DAY in $(seq 1 31)
+    do
+
+      printf -v DATE "%04d-%02d-%02d" "$YEAR" "$MONTH" "$DAY"
+      SYM=" $LINE "
+      VALS=''
+
+      for IDX in "${!CFG_KEYS[@]}"
+      do
+
+        ITEM="${CFG_KEYS[$IDX]}"
+        I="$DAY,${ITEM//ñ/n}"
+        V="${DAY_HEALTH[$I]}"
+
+        if [[ "$V" -eq "$VAL" ]]
+        then
+          SYM="${CFG_SIMS[$IDX]}"
+          VALS+="$SYM"
+        else
+          VALS+=' '
+        fi
+
+      done
+
+      SYMS="${VALS// /}"
+      WYMS="${#SYMS}"
+
+      [[ -z "$SYMS"       ]] && SYMS=" $LINE "
+      [[    "$WYMS" -eq 1 ]] && SYMS=" $SYMS "
+      [[    "$WYMS" -eq 2 ]] && SYMS="${SYMS:0:1}${LINE}${SYMS:1:1}"
+
+      printf " %3s " "$SYMS"
+
+    done
+
+    printf " %02d\\n" "$VAL"
+
+  done
+
+}
+
+function days_load()
+{
+
+  for DAY in $(seq 1 31)
+  do
+
+    printf -v DATE "%04d-%02d-%02d" "$YEAR" "$MONTH" "$DAY"
+
+    for ITEM in "${CFG_KEYS[@]}"
+    do
+
+      IDX="$DAY,${ITEM//ñ/n}"
+      DAY_HEALTH["$IDX"]="$(date_health "$DATE" "$ITEM")"
+
+    done
+
+  done
+
+}
+
+function main()
+{
+
+  defaults
+  params "$@"
+  references
+  days_load
+  days_plot
+  days_x
+
+}
+
+main "$@"
