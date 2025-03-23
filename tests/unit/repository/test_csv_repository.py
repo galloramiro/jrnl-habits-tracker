@@ -2,8 +2,46 @@ import csv
 import pytest
 import os
 
-from src.data_processor.dto import MonthlyTitleRow
+from src.data_processor.dto import MonthlyTitleRow, MonthlyHabitsRow
 from src.repository.csv_repository import CsvRepository, CsvRepositoryError
+
+
+def test_save_monthly_habits_rows():
+    # Given
+    year = 2024
+    month = 11
+    csv_repository = CsvRepository()
+    rows = [
+        MonthlyHabitsRow(
+            date=f"{year}-{month}-01 12:00:00 PM",
+            year=year,
+            month=month,
+            week_number=1,
+            day=5,
+            description="SomeDescription",
+            value=1,
+            tag="SuperTag",
+        ),
+        MonthlyHabitsRow(
+            date=f"{year}-{month}-01 12:00:00 PM",
+            year=year,
+            month=month,
+            week_number=1,
+            day=5,
+            description="SomeOtherDescription",
+            value=0,
+            tag="SuperTag",
+        ),
+    ]
+
+    # When
+    file_path = csv_repository.save_monthly_habits_rows(rows=rows)
+
+    # Then
+    assert file_path == f"/app/examples/jrnl-dir/{year}/{month}/monthly_habits_data.csv"
+    assert os.path.exists(file_path)
+
+    os.remove(file_path)
 
 
 def test_save_monthly_titles_rows():
