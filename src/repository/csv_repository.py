@@ -21,7 +21,19 @@ class CsvRepository:
     _JRNL_DIR = JRNL_DIR
 
     def save_monthly_habits_rows(self, rows: List[MonthlyHabitsRow]) -> str:
-        raise NotImplementedError
+        file_name = "monthly_habits_data.csv"
+        year = rows[0].year
+        month = rows[0].month
+        file_path = os.path.abspath(f"{self._JRNL_DIR}/{year}/{month}/{file_name}")
+
+        LOGGER.info(
+            f"Start saving data on: {file_path}",
+            extra={"file_path": file_path, "rows_len": len(rows)},
+        )
+
+        headers = list(asdict(rows[0]).keys())
+        self._save_rows(headers=headers, rows=rows, file_path=file_path)
+        return file_path
 
     def save_monthly_titles_rows(self, rows: List[MonthlyTitleRow]) -> str:
         file_name = "monthly_titles_data.csv"
@@ -34,7 +46,7 @@ class CsvRepository:
             extra={"file_path": file_path, "rows_len": len(rows)},
         )
 
-        headers = asdict(rows[0]).keys()
+        headers = list(asdict(rows[0]).keys())
         self._save_rows(headers=headers, rows=rows, file_path=file_path)
         return file_path
 
