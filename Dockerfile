@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Installing dependencies
 RUN pip install --user poetry
-ENV PATH="/root/.local/bin:${PATH}"
+ENV PATH="/root/.local/bin:/app/examples/scripts:${PATH}"
 
 COPY poetry.lock /app/
 COPY pyproject.toml /app/
