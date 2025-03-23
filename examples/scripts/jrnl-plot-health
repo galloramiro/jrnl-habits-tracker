@@ -113,7 +113,22 @@ function defaults()
 
   IFS=',' read -ra CFG_KEYS <<< "$DEF_CFG_KEYS"
   IFS=',' read -ra CFG_SYMS <<< "$DEF_CFG_SYMS"
+  IFS=',' read -ra ALL_SYMS <<< "$DEF_ALL_SYMS"
   unset IFS
+
+  LEN_KEYS="${#CFG_KEYS[@]}"
+  LEN_SYMS="${#CFG_SYMS[@]}"
+
+  if [[ "$LEN_SYMS" -lt "$LEN_KEYS" ]]
+  then
+    LEN_NEXT="$((LEN_SYMS + 1))"
+    for IDX in $(seq "$LEN_NEXT" "$LEN_KEYS")
+    do
+      SYM="$(sym_rnd)"
+      CFG_SYMS+=($SYM)
+    done
+  fi
+
 }
 
 function params()
