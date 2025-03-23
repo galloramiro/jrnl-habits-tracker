@@ -131,6 +131,16 @@ function defaults()
 
 }
 
+function sym_rnd()
+{
+  local IDX LEN
+
+  LEN="${#ALL_SYMS[@]}"
+  IDX="$(( RANDOM % "$LEN" ))"
+
+  echo "${ALL_SYMS[$IDX]}"
+}
+
 function params()
 {
   [[ -z "$1" ]] || MONTH="$1"
