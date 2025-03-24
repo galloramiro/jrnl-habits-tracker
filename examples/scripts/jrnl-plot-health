@@ -104,6 +104,7 @@ function defaults()
   [[ -n "$JRNL_DIR"     ]] || JRNL_DIR="$HOME/.jrnl"
   [[ -n "$DEF_CFG_KEYS" ]] || DEF_CFG_KEYS='DREAM,HUMOR,STRES'
   [[ -n "$DEF_CFG_SYMS" ]] || DEF_CFG_SYMS=',,'
+  [[ -n "$DEF_ALL_SYMS" ]] || DEF_ALL_SYMS='→,∗,∘,∙,√,∝,∞,∩,∪,∫,∮,∴,∵,∶,∷,∼,⊙,⊚,⋅,⋯,⌂,⌕,⑀,⑁,⑂,⑃,⑇,■,□,▢,▣,▤,▥,▦,▧,▨,▩,▪,▬,▲,△,▶,▷,▼,▽,◀,◁,◆,◇,◊,○,◎,●,◐,◑,★,☆,☼,♠,♡,♢,♣,♩,♪,♫,✓,✗,'
   [[ -n "$YEAR"         ]] || YEAR="$(date +'%Y')"
   [[ -n "$MONTH"        ]] || MONTH="$(date +'%m')"
   [[ -n "$LINE"         ]] || LINE=''
@@ -111,23 +112,63 @@ function defaults()
   [[ -n "$NO_CFG"       ]] || cfg_load
 
   IFS=',' read -ra CFG_KEYS <<< "$DEF_CFG_KEYS"
-  IFS=',' read -ra CFG_SIMS <<< "$DEF_CFG_SYMS"
+  IFS=',' read -ra CFG_SYMS <<< "$DEF_CFG_SYMS"
+  IFS=',' read -ra ALL_SYMS <<< "$DEF_ALL_SYMS"
   unset IFS
+
+  LEN_KEYS="${#CFG_KEYS[@]}"
+  LEN_SYMS="${#CFG_SYMS[@]}"
+
+  if [[ "$LEN_SYMS" -lt "$LEN_KEYS" ]]
+  then
+    LEN_NEXT="$((LEN_SYMS + 1))"
+    for IDX in $(seq "$LEN_NEXT" "$LEN_KEYS")
+    do
+      SYM="$(sym_rnd)"
+      CFG_SYMS+=($SYM)
+    done
+  fi
+
+}
+
+function sym_rnd()
+{
+  local IDX LEN
+
+  LEN="${#ALL_SYMS[@]}"
+  IDX="$(( RANDOM % "$LEN" ))"
+
+  echo "${ALL_SYMS[$IDX]}"
 }
 
 function params()
 {
-  [[ -z "$1" ]] || MONTH="$1"
-  [[ -z "$2" ]] || YEAR="$2"
+  [[ -z "$1"          ]] || MONTH="$(printf '%02d' "$1")"
+  [[ "$MONTH" -gt 12  ]] && MONTH=12
+  [[ "$MONTH" -eq 12  ]] && MONTH_DAYS=31
+  [[ -z "$2"          ]] ||  YEAR="$(printf '%02d' "$2")"
+  [[ -n "$HEALTH_MAX" ]] || HEALTH_MAX="$(health_max)"
+  [[ -z "$HEALTH_MAX" ]] && HEALTH_MAX='10'
+  [[ -n "$MONTH_NEXT" ]] || MONTH_NEXT="$((${MONTH#0} + 1))"
+  [[ -n "$MONTH_DAYS" ]] || MONTH_DAYS="$(date -d "$YEAR-$MONTH_NEXT-01 -1 days" +%d)"
+}
+
+function health_max()
+{
+  sed -n '/@Health/,/@/p' $JRNL_DIR/$YEAR/$MONTH/*.txt 2>/dev/null \
+    | grep -vE '(^@|^$)'                                           \
+    | awk '{print $NF}'                                            \
+    | sort -ur                                                     \
+    | head -1
 }
 
 function date_health()
 {
   [[ -n "$FILE" ]] || FILE="$JRNL_DIR/${DATE//-/\/}.txt"
 
-  grep -EA3 '^@Health' "$FILE" 2>/dev/null                    \
-    | grep -v '@Health'                                       \
-    | awk "/^$ITEM/ {print \$2}"
+  sed -n '/@Health/,/@/p' "$FILE" 2>/dev/null \
+    | grep -vE '(^@|^$)'                      \
+    | awk "/$ITEM/ {print \$NF}"
 }
 
 function references()
@@ -137,7 +178,8 @@ function references()
   for IDX in "${!CFG_KEYS[@]}"
   do
     VAL="${CFG_KEYS[$IDX]}"
-    SYM="${CFG_SIMS[$IDX]}"
+    SYM="${CFG_SYMS[$IDX]}"
+    [[ -z "$SYM" ]] && SYM="$(sym_rnd)"
     printf " %s %s " "$SYM" "$VAL"
   done
 
@@ -148,7 +190,7 @@ function days_x()
 {
   printf "\\n"
 
-  for DAY in $(seq 1 31)
+  for DAY in $(seq 1 "$MONTH_DAYS")
   do
 
     printf -v D "%02d" "$DAY"
@@ -161,13 +203,12 @@ function days_x()
 
 function days_plot()
 {
-
-  for VAL in $(seq 10 -1 1)
+  for VAL in $(seq "$HEALTH_MAX" -1 1)
   do
-    for DAY in $(seq 1 31)
+    for DAY in $(seq 1 "$MONTH_DAYS")
     do
 
-      printf -v DATE "%04d-%02d-%02d" "$YEAR" "$MONTH" "$DAY"
+      printf -v DATE "%04d-%02d-%02d" "$YEAR" "${MONTH#0}" "$DAY"
       SYM=" $LINE "
       VALS=''
 
@@ -180,7 +221,8 @@ function days_plot()
 
         if [[ "$V" -eq "$VAL" ]]
         then
-          SYM="${CFG_SIMS[$IDX]}"
+          SYM="${CFG_SYMS[$IDX]}"
+          [[ -z "$SYM" ]] && SYM="$(sym_rnd)"
           VALS+="$SYM"
         else
           VALS+=' '
@@ -208,10 +250,10 @@ function days_plot()
 function days_load()
 {
 
-  for DAY in $(seq 1 31)
+  for DAY in $(seq 1 "$MONTH_DAYS")
   do
 
-    printf -v DATE "%04d-%02d-%02d" "$YEAR" "$MONTH" "$DAY"
+    printf -v DATE "%04d-%02d-%02d" "$YEAR" "${MONTH#0}" "$DAY"
 
     for ITEM in "${CFG_KEYS[@]}"
     do
