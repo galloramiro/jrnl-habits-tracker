@@ -28,8 +28,18 @@ class ConsoleGraphicTool:
         days_line = self._generate_days_line(month=month, year=year)
         return descriptions_lines + days_line
 
-    def generate_negative_habits_graph(self) -> str:
-        raise NotImplementedError
+    def generate_negative_habits_graph(self, file_path: str) -> str:
+        data = self._from_csv_to_list_of_dict(file_path=file_path)
+        year = int(data[0]["year"])
+        month = int(data[0]["month"])
+        days_in_month = self._generate_month_range(month=month, year=year)
+        data = self._filter_by_tag(data=data, tag="NegativeHabits")
+        descriptions = self._get_unique_descriptions(data=data)
+        descriptions_lines = self._generate_lines_for_description(
+            data=data, descriptions=descriptions, days_in_month=days_in_month
+        )
+        days_line = self._generate_days_line(month=month, year=year)
+        return descriptions_lines + days_line
 
     def generate_health_graph(self) -> str:
         raise NotImplementedError
